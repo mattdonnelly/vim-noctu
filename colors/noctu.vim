@@ -72,17 +72,17 @@ hi! link SpecialKey    NonText
 hi Delimiter       ctermfg=7
 hi Comment         ctermfg=8
 hi Underlined      ctermfg=4   cterm=underline
-hi Type            ctermfg=4
-hi String          ctermfg=9
+hi Type            ctermfg=3
+hi String          ctermfg=2
 hi Keyword         ctermfg=2
 hi Todo            ctermfg=15  ctermbg=NONE     cterm=bold,underline
-hi Function        ctermfg=4
-hi Identifier      ctermfg=7   cterm=NONE
-hi Statement       ctermfg=2   cterm=bold
-hi Constant        ctermfg=13
+hi Function        ctermfg=11
+hi Identifier      ctermfg=3
+hi Statement       ctermfg=4
+hi Constant        ctermfg=1
 hi Number          ctermfg=12
-hi Boolean         ctermfg=4
-hi Special         ctermfg=13
+hi Boolean         ctermfg=13
+hi Special         ctermfg=2
 hi Ignore          ctermfg=0
 hi! link Operator  Delimiter
 hi! link PreProc   Delimiter
