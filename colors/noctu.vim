@@ -34,8 +34,8 @@ hi CursorLineNr        ctermfg=11    ctermbg=0
 hi Visual              ctermfg=0     ctermbg=12
 hi IncSearch           ctermfg=0     ctermbg=13    cterm=NONE
 hi Search              ctermfg=0     ctermbg=10
-hi StatusLine          ctermfg=7     ctermbg=0     cterm=bold
-hi StatusLineNC        ctermfg=8     ctermbg=0     cterm=bold
+hi StatusLine          ctermfg=7     ctermbg=0     cterm=NONE
+hi StatusLineNC        ctermfg=8     ctermbg=0     cterm=NONE
 hi VertSplit           ctermfg=0     ctermbg=0     cterm=NONE
 hi TabLine             ctermfg=8     ctermbg=0     cterm=NONE
 hi TabLineSel          ctermfg=7     ctermbg=0
@@ -69,21 +69,21 @@ hi! link SpecialKey    NonText
 
 "}}}
 " Generic syntax {{{
-hi Delimiter       ctermfg=7
-hi Comment         ctermfg=8
+hi Delimiter       ctermfg=7   cterm=NONE
+hi Comment         ctermfg=8   cterm=NONE
 hi Underlined      ctermfg=4   cterm=underline
-hi Type            ctermfg=3
-hi String          ctermfg=2
-hi Keyword         ctermfg=2
+hi Type            ctermfg=3   cterm=NONE
+hi String          ctermfg=2   cterm=NONE
+hi Keyword         ctermfg=2   cterm=NONE
 hi Todo            ctermfg=15  ctermbg=NONE     cterm=bold,underline
-hi Function        ctermfg=11
+hi Function        ctermfg=11  cterm=NONE
 hi Identifier      ctermfg=3   cterm=NONE
-hi Statement       ctermfg=4
-hi Constant        ctermfg=1
-hi Number          ctermfg=12
-hi Boolean         ctermfg=13
-hi Special         ctermfg=2
-hi Ignore          ctermfg=0
+hi Statement       ctermfg=4   cterm=NONE
+hi Constant        ctermfg=1   cterm=NONE
+hi Number          ctermfg=12  cterm=NONE
+hi Boolean         ctermfg=13  cterm=NONE
+hi Special         ctermfg=2   cterm=NONE
+hi Ignore          ctermfg=0   cterm=NONE
 hi! link Operator  Delimiter
 hi! link PreProc   Delimiter
 hi! link Error     ErrorMsg
