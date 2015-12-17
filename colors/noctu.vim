@@ -88,7 +88,6 @@ hi Structure       ctermfg=4
 hi! link Operator  Delimiter
 hi! link PreProc   Delimiter
 hi! link Error     ErrorMsg
-hi! link Include   Type
 
 "}}}
 " HTML {{{
