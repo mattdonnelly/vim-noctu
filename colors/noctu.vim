@@ -72,7 +72,7 @@ hi! link SpecialKey    NonText
 hi Delimiter       ctermfg=7
 hi Comment         ctermfg=8
 hi Underlined      ctermfg=4   cterm=underline
-hi Type            ctermfg=4
+hi Type            ctermfg=3
 hi String          ctermfg=9
 hi Keyword         ctermfg=2
 hi Todo            ctermfg=15  ctermbg=NONE     cterm=bold,underline
@@ -84,9 +84,11 @@ hi Number          ctermfg=12
 hi Boolean         ctermfg=4
 hi Special         ctermfg=13
 hi Ignore          ctermfg=0
+hi Structure       ctermfg=4
 hi! link Operator  Delimiter
 hi! link PreProc   Delimiter
 hi! link Error     ErrorMsg
+hi! link Include   Type
 
 "}}}
 " HTML {{{
@@ -174,6 +176,11 @@ hi lessVariable             ctermfg=11
 hi! link lessVariableValue  Normal
 
 "}}}
+" Haskell {{{
+hi! link haskellWhere Statement
+hi! link haskellLet   haskellWhere
+
+" }}}
 " NERDTree {{{
 hi! link NERDTreeHelp      Comment
 hi! link NERDTreeExecFile  String
